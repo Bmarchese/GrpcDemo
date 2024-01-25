@@ -62,7 +62,7 @@ namespace GrpcServer.Services
                     LastName = "Williams",
                     Email = "willwill@contoso.com",
                     Active = true,
-                }, 
+                },
                 new CustomerModel
                 {
                     FirstName = "Mary",
@@ -79,7 +79,7 @@ namespace GrpcServer.Services
                 }
             };
 
-            foreach(var c in customers)
+            foreach (var c in customers)
             {
                 await responseStream.WriteAsync(c);
             }

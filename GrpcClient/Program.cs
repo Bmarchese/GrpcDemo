@@ -1,6 +1,4 @@
-﻿// http://localhost:5110
-
-using Grpc.Core;
+﻿using Grpc.Core;
 using Grpc.Net.Client;
 using GrpcClient;
 
